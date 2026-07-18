@@ -1,5 +1,38 @@
 <Solution>
   <Folder Name="/database/" />
+  <Folder Name="/database/Catalog/">
+    <Project Path="FlashCart.Catalog.Database/FlashCart.Catalog.Database.sqlproj" Id="3c8d4768-165d-4428-b114-378c46a97811">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/database/Identity/" />
+  <Folder Name="/database/Inventory/" />
+  <Folder Name="/database/Notification/" />
+  <Folder Name="/database/Ordering/">
+    <Project Path="FlashCart.Ordering.Database/FlashCart.Ordering.Database.sqlproj" Id="1da30693-b08b-4566-9a46-ac53460c97db">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
+  <Folder Name="/database/Payment/" />
   <Folder Name="/docker/" />
   <Folder Name="/docs/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/" />
+  <Folder Name="/src/Gateway/">
+    <Project Path="FlashCart.Gateway/FlashCart.Gateway.csproj" Id="a380916d-c396-4a99-ae5c-851283cf38f2" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Cart/" />
+  <Folder Name="/src/Services/Catalog/">
+    <Project Path="FlashCart.Catalog/FlashCart.Catalog.csproj" Id="4245ddb6-996f-4501-87a0-ea0427813cda" />
+  </Folder>
+  <Folder Name="/src/Services/Identity/" />
+  <Folder Name="/src/Services/Inventory/" />
+  <Folder Name="/src/Services/Notification/" />
+  <Folder Name="/src/Services/Ordering/">
+    <Project Path="FlashCart.Ordering/FlashCart.Ordering.csproj" Id="536ab4d1-7143-4128-bd9f-6c730efc9b88" />
+  </Folder>
+  <Folder Name="/src/Services/Payment/" />
 </Solution>

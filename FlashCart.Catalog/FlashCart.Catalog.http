@@ -1,0 +1,6 @@
+@FlashCart.Catalog_HostAddress = http://localhost:5268
+
+GET {{FlashCart.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
